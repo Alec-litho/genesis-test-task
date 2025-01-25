@@ -12,9 +12,9 @@ for backend you should first
   ```bash
    npm run start:dev
   ```
- create .env file with CLIENT_ID ("X-Client-Id") variable
- then make get request http://localhost:3000/api/v1/auth
- and finally copy access key and paste it to .env file (ACCESS_KEY=access key)
+ - create .env file with CLIENT_ID ("X-Client-Id") variable
+ - then make get request http://localhost:3000/api/v1/auth
+ - and finally copy access key and paste it to .env file (ACCESS_KEY=access key)
 
  Now you can make requests on frontend
  
