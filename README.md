@@ -16,5 +16,5 @@ for backend you should first
  - then make get request http://localhost:3000/api/v1/auth
  - and finally copy access key and paste it to .env file (ACCESS_KEY=access key)
 
- Now you can make requests on frontend
+ Now you can make requests from client
  
