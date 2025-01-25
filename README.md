@@ -10,9 +10,6 @@ then for frontend
   ```
 for backend you should first
   ```bash
-   npm i
-  ```
-  ```bash
    npm run start:dev
   ```
  create .env file with CLIENT_ID ("X-Client-Id") variable
