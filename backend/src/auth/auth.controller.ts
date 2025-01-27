@@ -1,4 +1,4 @@
-import { Controller, Post } from '@nestjs/common';
+import { Controller, Get } from '@nestjs/common';
 import { AuthService } from './auth.service';
 import { ApiOperation, ApiResponse } from '@nestjs/swagger';
 
@@ -11,7 +11,7 @@ interface AccessKeyResponse {
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
-  @Post()
+  @Get()
   @ApiOperation({ summary: 'Get Access Token' })
   @ApiResponse({ status: 200, description: 'Bad Request' })
   async getAccessToken() {
